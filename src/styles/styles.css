@@ -1,0 +1,149 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #1b1b1b;
+  color: blanchedalmond;
+}
+
+.main-layout {
+  display: flex;
+  flex-direction: column;
+}
+.nav {
+  background-color: #363a45;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0px;
+  text-align: center;
+  width: 100%;
+}
+
+.nav-ul {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right: 30px;
+}
+
+.nav-li {
+  list-style: none;
+  margin-bottom: 10px;
+  padding: 0px 15px;
+}
+
+.nav-li a {
+  color: white;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.artist_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.artist_img-container {
+  display: inline-block;
+  margin: 20px;
+  position: relative;
+}
+
+.artist_img {
+  border-radius: 100%;
+  height: 150px;
+  width: 150px;
+}
+.artist_name {
+  color: #fff;
+  left: 0%;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+.artist-_detail {
+  background: linear-gradient(#1b1b1b, #000);
+  display: flex;
+  justify-content: center;
+}
+.album_container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.artist-_detail-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.album_detail-container {
+  display: flex;
+  margin: 20px;
+  width: 80%;
+}
+.album_img {
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+}
+.album_title {
+  border-bottom: 1px solid #6b6a6a;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0px 20px;
+  padding-top: 10px;
+  width: 70vw;
+}
+.songs_total {
+  font-size: 12px;
+  width: 100%;
+}
+.icon_play {
+  color: #fff;
+  margin-top: 1rem;
+}
+
+.album_detail {
+  display: flex;
+  justify-content: flex-start;
+  padding: 30px;
+}
+.album_detail-img {
+  height: 150px;
+  width: 150px;
+}
+.album_detail_text {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 30px;
+}
+.song_list{
+  display: flex;
+  flex-direction: column;
+  width:90%;
+}
+.songs_detail-container {
+  display: flex;
+  justify-content: space-between;
+  list-style: decimal;
+  margin: 0px;
+  margin: 20px 0px;
+  width: 100%;
+}
+.songs_container {
+  align-items: center;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+.song_title {
+  align-items: center;
+  display: flex;
+}
